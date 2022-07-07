@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(5.1.10)-1*%
-%TF.CreationDate,2021-10-10T15:08:46-03:00*%
+%TF.CreationDate,2022-07-06T12:29:18-02:30*%
 %TF.ProjectId,footSwitchBoard,666f6f74-5377-4697-9463-68426f617264,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L1,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.10)-1) date 2021-10-10 15:08:46*
+G04 Created by KiCad (PCBNEW (5.1.10)-1) date 2022-07-06 12:29:18*
 %MOMM*%
 %LPD*%
 G01*
@@ -32,10 +32,10 @@ D10*
 %TO.N,/RTN*%
 X144730000Y-70400000D03*
 %TO.P,J1,6*%
-%TO.N,/LED+*%
+%TO.N,/LED*%
 X149810000Y-70400000D03*
 %TO.P,J1,7*%
-%TO.N,/V+*%
+%TO.N,/V_LED*%
 X152350000Y-70400000D03*
 %TO.P,J1,3*%
 %TO.N,/SND*%
@@ -68,15 +68,16 @@ X141000000Y-80500000D03*
 %TO.N,/RTN*%
 X146000000Y-75500000D03*
 %TO.P,SW1,7*%
-%TO.N,/V+*%
+%TO.N,/V_LED*%
 X151000000Y-75500000D03*
 %TO.P,SW1,8*%
-%TO.N,/LED+*%
+%TO.N,/LED*%
 X151000000Y-80500000D03*
 %TO.P,SW1,3*%
 %TO.N,Earth*%
 X141000000Y-85500000D03*
 %TO.P,SW1,9*%
+%TO.N,Net-(SW1-Pad9)*%
 X151000000Y-85500000D03*
 %TO.P,SW1,6*%
 %TO.N,/IN*%
@@ -1180,7 +1181,7 @@ G37*
 %TD.AperFunction*%
 %TD*%
 D13*
-%TO.N,/LED+*%
+%TO.N,/LED*%
 X155981814Y-69174020D02*
 X156125980Y-69318186D01*
 X156175001Y-69388195D01*

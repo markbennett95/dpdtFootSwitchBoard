@@ -5,8 +5,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Footswitch Board"
-Date "2021-10-09"
-Rev "v1.0.0"
+Date "2022-07-06"
+Rev "v1.1.0"
 Comp "Bennett Custom Audio"
 Comment1 ""
 Comment2 ""
@@ -118,11 +118,11 @@ SND
 Wire Wire Line
 	4575 2600 4650 2600
 Text HLabel 5125 3325 2    50   Input ~ 0
-V+
+V_LED
 Wire Wire Line
 	5125 3325 5050 3325
 Text HLabel 4575 3425 0    50   Input ~ 0
-LED+
+LED
 Wire Wire Line
 	4575 3425 4650 3425
 Text HLabel 6150 3150 0    50   Input ~ 0
@@ -137,21 +137,6 @@ Wire Wire Line
 	6150 3050 6350 3050
 Wire Wire Line
 	6350 3050 6350 3325
-$Comp
-L power:Earth #PWR0104
-U 1 1 6162128B
-P 5125 3600
-F 0 "#PWR0104" H 5125 3350 50  0001 C CNN
-F 1 "Earth" H 5125 3450 50  0001 C CNN
-F 2 "" H 5125 3600 50  0001 C CNN
-F 3 "~" H 5125 3600 50  0001 C CNN
-	1    5125 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5125 3600 5125 3525
-Wire Wire Line
-	5125 3525 5050 3525
 Text HLabel 6150 2950 0    50   Input ~ 0
 RTN
 Wire Wire Line
@@ -159,13 +144,13 @@ Wire Wire Line
 Wire Wire Line
 	6450 2950 6450 3325
 Text HLabel 6850 3050 2    50   Input ~ 0
-LED+
+LED
 Wire Wire Line
 	6850 3050 6650 3050
 Wire Wire Line
 	6650 3050 6650 3325
 Text HLabel 6850 3150 2    50   Input ~ 0
-V+
+V_LED
 Wire Wire Line
 	6850 3150 6750 3150
 Wire Wire Line
